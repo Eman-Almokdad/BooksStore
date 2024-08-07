@@ -1,5 +1,4 @@
 import './ShowDetails.css'
-import './ShowDetails.CSS'
 import React from 'react'
 import priv from '../../assets/images/priv.svg'
 import plus from '../../assets/images/plus.svg'
