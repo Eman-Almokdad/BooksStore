@@ -1,10 +1,13 @@
 
+import { useTheme } from '../ThemeProvider';
 import './Map.css'
 
 const Map = () => {
-
+    const theme = useTheme();
+    console.log(theme);
+    const { darkMode } = theme || {};
   return (
-    <div className={`map , `}>
+    <div className={`map , ${darkMode ? 'dark' : 'light'}`}>
         <div className='left'>
             <h1>Did you know us? </h1>
             <p>We are about books and our purpose is to show you the book who can chage your life or distract you from the real world în a better one. BWorld works with the must popular publishs just for your delight. 
