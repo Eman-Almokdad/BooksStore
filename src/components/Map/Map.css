@@ -1,0 +1,77 @@
+.map{
+    margin: 100px auto;
+    width: 80vw;
+    height: 468px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 63px;
+}
+.map .left{
+width: 45%;
+height: 468px;
+padding-top: 34px;
+padding-top: 34px;
+padding-top: 34px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+}
+.map .link-map{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.map .right{
+    width: 45%;
+    height: 468px;
+}
+.map .left h1{
+    
+font-size: 2.437rem;
+font-weight: 600;
+line-height: 49.068px; /* 125.816% */
+}
+.map .left p{
+    
+text-align: justify;
+font-size: 1rem;
+font-weight: 400;
+line-height: 24.033px; /* 150.208% */
+}
+.map .left input{
+width: 100%;
+height: 35px;
+border: none;
+background-color:transparent ;
+border-bottom: 1px solid #937DC299;
+}
+.map .left input::placeholder{
+    color: rgba(147, 125, 194, 0.60);
+    /* body text */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24.033px; /* 150.208% */
+}
+.map button{
+    width: 100%;
+    height: 50px;
+    border-radius: 3.004px;
+    background: var(--Primary, #937DC2);
+    border: none;
+    color: var(--White, #FFF);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24.033px; /* 150% */
+}
+@media screen and (max-width:992px) {
+    .map{
+        height: max-content;
+    }
+    .map .left , .map .right{
+        width: 100%;
+    }
+
+}

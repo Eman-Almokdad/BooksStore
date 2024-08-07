@@ -1,0 +1,115 @@
+.books{
+    width: 100%;
+    padding:100px 4.875rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin:  auto; 
+    position: relative;
+}
+.books .book-h1{
+    
+font-size: 2.5rem;
+font-weight: 600;
+line-height: 49px; /* 122.5% */
+text-transform: capitalize;
+margin-bottom: 46px;
+}
+.books .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 270px;
+    height: 372px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card .top{
+    height: 80%;
+    width: 100%;
+    
+    }
+    .card .img-top{
+        width: 100% ;
+        height: 100%;
+    }
+    .card .buttom{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .card h1{
+        
+        font-size: 0.937rem;
+        font-weight: 600;
+        line-height: 24.033px; /* 160.222% */
+    }
+    .card .child{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card p{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 24.033px; /* 171.667% */
+    }
+    .card .title1{
+        width: 95px;
+        height: 25px;
+        
+    }
+    .card .title2{
+        width: 45px;
+        height: 25px;   
+    }
+    .card .btn{
+        width: 100%;
+        height: 40px;
+        border-radius: 2.003px;
+        background: var(--Primary, #937DC2);
+        border: none;
+        color: var(--White, #FFF);
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 24.033px; /* 171.667% */
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+    }
+    .card button:active{
+        background-color: white;
+        border:1px solid #937DC2;
+        color: #937DC2;
+    }
+
+    @media screen and (max-width:992px) {
+        .books{
+            padding: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+    .books .container{
+        justify-content: center;
+    }
+
+    }

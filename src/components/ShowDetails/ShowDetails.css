@@ -1,0 +1,119 @@
+.showditails{
+    padding: 6.25rem 0;
+    padding-bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.showditails .left{
+    width: 45%;
+    /* height: 100%; */
+}
+.showditails .left img{
+    width: 100%;
+object-fit: cover;
+}
+.showditails .right{
+    padding: 0 20px;
+    width: 50%;
+   /*  height: 600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.showditails .right .title{
+    
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 36px; /* 90% */
+}
+
+.showditails .right .authors{
+    
+font-size: 0.75rem;
+font-weight: 400;
+line-height: 27px; /* 225% */
+}
+.showditails .right h4{
+    
+font-size: 1.125rem;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
+}
+.showditails .right .desc{
+    
+font-size: 0.875rem;
+font-weight: 400;
+line-height: 23px; /* 164.286% */
+}
+.showditails .right .ide{
+    width: 73.684px;
+    height: 24.913px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--purple-black-body-text, #4F4C57);
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.showditails .btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 37px;
+    border-bottom: 1px solid #937DC2;
+}
+.showditails .btns button{
+width: 45%;
+height: 46.7px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid var(--Primary, #937DC2);
+color: var(--Primary, #937DC2);
+font-size: 1rem;
+font-weight: 500;
+line-height: 24px; /* 150% */
+background-color: white;
+}
+.showditails .btns .btn1{
+    background: var(--Primary, #937DC2);color: var(--White, #FFF);
+    color: var(--White, #FFF);
+}
+.showditails .num p{
+    
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24.033px; /* 150.208% */
+}
+.showditails .num p span{
+    padding-left: 18px;
+    line-height: 26px; /* 162.5% */
+}
+.showditails .num p .span1{
+    color: var(--violet, #C689C6);
+}
+@media screen and (max-width:992px) {
+    .showditails{
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        
+    }
+    .showditails .left , .showditails .right{
+        width: 100%;
+align-items: center;
+        
+    }
+    .showditails .left img{
+        /* max-width: 300px; */
+    }
+}
